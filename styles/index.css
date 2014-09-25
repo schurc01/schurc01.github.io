@@ -42,3 +42,35 @@ ul li {
    	margin-right: auto;
    	padding-top: 20px;
 }
+#leftside { 
+	left: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #a5ebff;
+	position: fixed;
+}
+#rightside { 
+	right: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #a5ebff;
+	position: fixed;
+}		
+#top { 
+	left: 0; 
+	right: 0;
+	height: 20px;
+	top: 0;
+	background: #a5ebff;
+	position: fixed;
+}
+#bottom {
+	left: 0; 
+	right: 0;
+	height: 20px;
+	bottom: 0;
+	background: #a5ebff;
+	position: fixed;
+}
