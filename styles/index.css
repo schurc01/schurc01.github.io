@@ -1,37 +1,38 @@
 #subline {
 	margin: 5px;
 	padding: 5px;
-	color: #480000;
+	color: black;
 	font-size: 150%;
 	text-align: center;
 	font-family: Courier New, monospace;
 }
 a {
 	text-decoration: none;
-	color: #480000;
+	color: black;
 }
 .title {
 	font-family: Palatino, serif;
-	color: #480000;
+	color: black;
 	text-align: center;
 	padding: 0;
 	font-size: 180%;
 	margin: 0;
 }
 .navbar{
-	font-size: 150%;
 	text-align: center;
-	color: #480000;
-	font-family: monospace;
 }
 #bio {
 	margin: 0;
 	padding-right: 50px;
+	font-size: 150%;
+	font-family: monospace;
 }
 #resume {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
+	font-size: 150%;
+	font-family: monospace;
 }
 ul li {
 	display: inline;
@@ -47,7 +48,7 @@ ul li {
 	top: 0;
 	bottom: 0;
 	width: 20px;
-	background: #660000;
+	background: #660F09;
 	position: fixed;
 }
 #rightside { 
@@ -55,7 +56,7 @@ ul li {
 	top: 0;
 	bottom: 0;
 	width: 20px;
-	background: #660000;
+	background: #660F09;
 	position: fixed;
 }		
 #top { 
@@ -63,7 +64,7 @@ ul li {
 	right: 0;
 	height: 20px;
 	top: 0;
-	background: #660000;
+	background: #660F09;
 	position: fixed;
 }
 #bottom {
@@ -71,6 +72,6 @@ ul li {
 	right: 0;
 	height: 20px;
 	bottom: 0;
-	background: #660000;
+	background: #660F09;
 	position: fixed;
 }
