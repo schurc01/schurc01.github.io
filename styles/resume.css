@@ -17,6 +17,39 @@
 	background: radial-gradient(ellipse at center, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 95%);
 }
 #resumepage {
-	color: #4d4d4d;
+	color: #480000;
 	font-family: Courier, monospace;
+	padding: 22px;
+}
+#leftside { 
+	left: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #660000;
+	position: fixed;
+}
+#rightside { 
+	right: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #660000;
+	position: fixed;
+}		
+#top { 
+	left: 0; 
+	right: 0;
+	height: 20px;
+	top: 0;
+	background: #660000;
+	position: fixed;
+}
+#bottom {
+	left: 0; 
+	right: 0;
+	height: 20px;
+	bottom: 0;
+	background: #660000;
+	position: fixed;
 }
