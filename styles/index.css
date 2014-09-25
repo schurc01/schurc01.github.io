@@ -8,11 +8,11 @@
 }
 a {
 	text-decoration: none;
-	color: #4d4d4d;;
+	color: #480000;
 }
 .title {
 	font-family: Palatino, serif;
-	color: #4d4d4d;
+	color: #480000;
 	text-align: center;
 	padding: 0;
 	font-size: 180%;
@@ -21,7 +21,7 @@ a {
 .navbar{
 	font-size: 150%;
 	text-align: center;
-	color: #4d4d4d;
+	color: #480000;
 	font-family: monospace;
 }
 #bio {
