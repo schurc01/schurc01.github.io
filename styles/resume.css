@@ -1,0 +1,21 @@
+#name {
+	text-align: center;
+}
+.header {
+	text-align: center;
+}
+.organization {
+	font-size: 115%;
+}
+.subtitle {
+	font-style: italic;
+}
+.resumehr {
+	width: 100%;
+	border: 0;
+	height: 1px;
+	background: radial-gradient(ellipse at center, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 95%);
+}
+#resumepage {
+	color: #4d4d4d;
+}
