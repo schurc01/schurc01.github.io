@@ -1,15 +1,17 @@
-h2 {
+#subline {
 	margin: 5px;
 	padding: 5px;
 	color: #4d4d4d;
 	font-size: 150%;
 	text-align: center;
+	font-family: Courier New, monospace;
 }
 a {
 	text-decoration: none;
 	color: #4d4d4d;;
 }
 .title {
+	font-family: Palatino, serif;
 	color: #4d4d4d;
 	text-align: center;
 	padding: 0;
@@ -19,8 +21,8 @@ a {
 .navbar{
 	font-size: 150%;
 	text-align: center;
-	font-style: italic;
 	color: #4d4d4d;
+	font-family: monospace;
 }
 #bio {
 	margin: 0;
