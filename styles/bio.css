@@ -2,6 +2,47 @@
 	text-align: center;
 }
 #biopage {
+<<<<<<< HEAD
 	color: #4d4d4d;
 	font-family: Courier, monospace;
 }
+=======
+	color: black;
+	font-family: Courier, monospace;
+}
+p {
+	padding: 22px;
+}
+#leftside { 
+	left: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #660F09;
+	position: fixed;
+}
+#rightside { 
+	right: 0; 
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: #660F09;
+	position: fixed;
+}		
+#top { 
+	left: 0; 
+	right: 0;
+	height: 20px;
+	top: 0;
+	background: #660F09;
+	position: fixed;
+}
+#bottom {
+	left: 0; 
+	right: 0;
+	height: 20px;
+	bottom: 0;
+	background: #660F09;
+	position: fixed;
+}
+>>>>>>> 75528a2c66ee8ba6c9870e75cb59b3f9ba44a0ca
