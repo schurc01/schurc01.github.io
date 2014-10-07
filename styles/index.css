@@ -8,17 +8,21 @@
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: #4d4d4d;;
 }
 .title {
-	font-family: Palatino, serif;
+	font-family: 'Lobster Two', cursive;
 	color: black;
 	text-align: center;
 	padding: 0;
-	font-size: 180%;
+	font-size: 220%;
 	margin: 0;
 }
 .navbar{
+	font-size: 180%;
+	text-align: center;
+	color: #4d4d4d;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
 #bio {
@@ -34,6 +38,13 @@ a {
 	font-size: 150%;
 	font-family: monospace;
 }
+#github {
+	margin: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 150%;
+	font-family: monospace;
+}
 ul li {
 	display: inline;
 }
@@ -42,36 +53,5 @@ ul li {
   	margin-left: auto;
    	margin-right: auto;
    	padding-top: 20px;
-}
-#leftside { 
-	left: 0; 
-	top: 0;
-	bottom: 0;
-	width: 20px;
-	background: #660F09;
-	position: fixed;
-}
-#rightside { 
-	right: 0; 
-	top: 0;
-	bottom: 0;
-	width: 20px;
-	background: #660F09;
-	position: fixed;
-}		
-#top { 
-	left: 0; 
-	right: 0;
-	height: 20px;
-	top: 0;
-	background: #660F09;
-	position: fixed;
-}
-#bottom {
-	left: 0; 
-	right: 0;
-	height: 20px;
-	bottom: 0;
-	background: #660F09;
-	position: fixed;
+
 }
