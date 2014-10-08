@@ -1,3 +1,6 @@
+html {
+	background: #FFF2E7;
+}
 #name {
 	text-align: center;
 }
@@ -17,7 +20,7 @@
 	background: radial-gradient(ellipse at center, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 95%);
 }
 #resumepage {
-	color: black;
+	color: #0E0021;
 	font-family: 'Raleway', sans-serif;
 	padding: 22px;
 }

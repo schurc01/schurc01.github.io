@@ -1,8 +1,11 @@
+html {
+	background: #FFF2E7;
+}
 #biotitle {
 	text-align: center;
 }
 #biopage {
-	color: #4d4d4d;
+	color: #0E0021;
 	font-family: 'Raleway', sans-serif;
 }
 p {

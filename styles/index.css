@@ -1,49 +1,59 @@
-#subline {
-	margin: 5px;
-	padding: 5px;
-	color: black;
-	font-size: 150%;
-	text-align: center;
-	font-family: Courier New, monospace;
+html {
+	background: #0E0021;
 }
 a {
 	text-decoration: none;
-	color: #4d4d4d;;
+	color: #F2D5BD;
 }
 .title {
-	font-family: 'Lobster Two', cursive;
-	color: black;
+	font-family: 'Lato', sans-serif;
+	color: #FFF2E7;
+	height: 100px;
 	text-align: center;
-	padding: 0;
-	font-size: 220%;
-	margin: 0;
+	padding-top: 50px;
+	font-size: 450%;
 }
 .navbar{
 	font-size: 180%;
 	text-align: center;
-	color: #4d4d4d;
-	font-family: 'Lato', sans-serif;
+	color: #F2D5BD;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 100;
 	text-align: center;
 }
+#bio:hover {
+	margin-top: 20px;
+}
 #bio {
-	margin: 0;
 	padding-right: 50px;
 	font-size: 150%;
-	font-family: monospace;
 }
 #resume {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
 	font-size: 150%;
-	font-family: monospace;
 }
 #github {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
 	font-size: 150%;
-	font-family: monospace;
+}
+#projects {
+	margin: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 150%;
+}
+#fun {
+	margin: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 150%;
+}
+#thin {
+	font-weight: 100;
 }
 ul li {
 	display: inline;
@@ -54,4 +64,20 @@ ul li {
    	margin-right: auto;
    	padding-top: 20px;
 
+}
+.contact {
+	color: #DE8642;
+	font-family: 'Lato', sans-serif;
+	font-size: 300%;
+	padding-top: 250px;
+	text-align: center;
+}
+.socialmedia {
+	text-align: center;
+	position: relative;
+	left: -20px;
+}
+img {
+	width:3em;
+	height:3em;
 }
