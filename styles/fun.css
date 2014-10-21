@@ -1,0 +1,48 @@
+html {
+	background-color: #0E0021;
+}
+.singing {
+	position: relative;
+	top: 150px;
+	font-size: 400%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+	margin-right: 25px;
+}
+.cooking {
+	position: relative;
+	top: 150px;
+	font-size: 400%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+	margin-left: 25px;
+}
+#sing {
+	position: relative;
+	left: -150px;
+}
+
+#cook {
+	position: relative;
+	right: -130px;
+}
+a {
+	text-decoration: none;
+	color: #FFF2E7;
+}
+.resize {
+	width: 550px;
+	height: auto;
+}
+.italics {
+	font-style: italic;
+	font-size: 40%;
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+ul {
+	text-align: center;
+}

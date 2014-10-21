@@ -1,5 +1,5 @@
 html {
-	background: #0E0021;
+	background-color: #0E0021;
 }
 a {
 	text-decoration: none;
@@ -14,43 +14,36 @@ a {
 	font-size: 450%;
 }
 .navbar{
-	font-size: 180%;
+	font-size: 250%;
 	text-align: center;
 	color: #F2D5BD;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 100;
 	text-align: center;
 }
-#bio:hover {
-	margin-top: 20px;
-}
+
 #bio {
 	padding-right: 50px;
-	font-size: 150%;
 }
 #resume {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
-	font-size: 150%;
 }
 #github {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
-	font-size: 150%;
 }
 #projects {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
-	font-size: 150%;
 }
 #fun {
 	margin: 0;
 	padding-right: 50px;
 	padding-left: 50px;
-	font-size: 150%;
 }
 #thin {
 	font-weight: 100;

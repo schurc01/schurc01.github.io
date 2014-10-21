@@ -1,5 +1,5 @@
 html {
-	background: #FFF2E7;
+	background-color: #0E0021;
 }
 #name {
 	text-align: center;
@@ -17,10 +17,11 @@ html {
 	width: 100%;
 	border: 0;
 	height: 1px;
-	background: radial-gradient(ellipse at center, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 95%);
+	background: radial-gradient(ellipse at center, rgba(255,242,231,0.95) 0%,rgba(255,242,231,0) 95%);
+	
 }
 #resumepage {
-	color: #0E0021;
+	color: #FFF2E7;
 	font-family: 'Raleway', sans-serif;
 	padding: 22px;
 }
