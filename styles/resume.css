@@ -3,6 +3,7 @@ html {
 }
 #name {
 	text-align: center;
+	font-family: 'Lato', sans-serif;
 }
 .header {
 	text-align: center;
@@ -18,10 +19,13 @@ html {
 	border: 0;
 	height: 1px;
 	background: radial-gradient(ellipse at center, rgba(255,242,231,0.95) 0%,rgba(255,242,231,0) 95%);
-	
+
+}
+.thin {
+	font-weight: 100;
 }
 #resumepage {
 	color: #FFF2E7;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	padding: 22px;
 }
