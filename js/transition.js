@@ -11,4 +11,10 @@ $(document).ready(function() {
     			function redirectPage() {
        				window.location = linkLocation;
     			}
+                $(".contact").hover(function() {
+                    console.log("hello");
+                     $(this).animate({marginTop: 100});
+                     var email = "sjchurch18@gmail.com";
+                     $(#email).html(email);
+                });
 });
