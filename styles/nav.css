@@ -1,0 +1,26 @@
+#navbar{
+	font-size: 250%;
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+
+	/*navbar background*/
+	background-color: #DE8642;
+}
+#navbar ul {
+	text-align: center;
+}
+#navbar ul li {
+	padding: 0px 50px 0px 50px;
+}
+#navbar a:hover {
+	text-shadow: 2px 2px 4px #000000;
+}
+.move {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}

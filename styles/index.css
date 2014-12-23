@@ -1,3 +1,4 @@
+/* fix weird centering */
 * {
 	/* REAL janky */
 	margin: 0;
@@ -24,24 +25,7 @@ a {
 	margin-top: 175px;
 	font-size: 450%;
 }
-#navbar{
-	font-size: 250%;
-	text-align: center;
-	color: #F2D5BD;
-	font-family: 'Josefin Slab', serif;
-	font-weight: 100;
-	text-align: center;
-	padding: 10px 0px 10px 0px;
 
-	/*navbar background*/
-	background-color: #DE8642;
-}
-#navbar li {
-	padding: 0px 50px 0px 50px;
-}
-#navbar a:hover {
-	text-shadow: 2px 2px 4px #000000;
-}
 #thin {
 	font-weight: 100;
 }
