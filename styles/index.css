@@ -14,9 +14,9 @@ a {
 	color: #F2D5BD;
 }
 p {
-	/*fix font*/
+	/*can i make more space in between lines?*/
 	font-family: 'Raleway', sans-serif;
-	padding: 0vh 2vw 0vh 2vw;
+	padding: 4vh 2vw 0vh 2vw;
 }
 .thin {
 	font-weight: 100;
@@ -57,21 +57,22 @@ p {
 	font-size: 5vw;
 	font-family: 'Lato', sans-serif;
 	color: #FFF2E7;
+	padding: 0vh 0vw 4vh 0vw;
 }
 #photo {
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	padding: 3vh 0vw 4vh 0vw;
 }
 .resize {
+	/*idk what this is*/
 	width: 600px;
 	height: auto;
+	border: 2px solid #DE8642;
 }
 #bio {
-	/*fix color*/
 	background-color: #1B0021;
-	color: #DE8642;
+	color: #FFF2E7;
 }
 section {
 	width: 100%;
