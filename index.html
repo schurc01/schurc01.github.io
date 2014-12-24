@@ -7,10 +7,16 @@
 		<link rel="stylesheet" href="./styles/index.css" />
 		<link rel="stylesheet" href="./styles/nav.css" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="./js/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="./js/jquery.panelSnap.js"></script>
 		<script type="text/javascript" src="./js/transition.js"></script>
+		<script>
+			jQuery(function($) {
+        			$('body').panelSnap();
+      			});	
+		</script>
 	</head>
 	<body id="content-wrapper">
 		<section id="landing">
@@ -24,10 +30,10 @@
 	    			<li><a href="#singing">Singing</a></li>
 				</ul>
 			</div>
-			<div class="title">
-				<h1>Susannah <span id="thin">Church</span></h1>
+			<div class="namehead">
+				<h1>Susannah <span class="thin">Church</span></h1>
 			</div>
-			<h3 class="contact">Look me up...</h3>
+			<h3 class="contact">Look me up.</h3>
 			<div id="icons">
 				<ul class="socialmedia">
 					<li><a href="https://www.linkedin.com/profile/view?id=277233712&trk=spm_pic">
@@ -58,7 +64,14 @@
 			</div>
 		</section>
 		<section id="bio">
-		<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+			<div class="navspace"></div>
+			<div id="biopage">
+				<h1 class="sectionhead">Bio<span class="thin">graphy</span></h1>
+				<img id="photo" class="resize" src="./images/me.jpg" alt="me" />
+				<p>Born and raised in New York City, Susannah Church has fallen in love with the problem-solving and organized nature of programming. Only finding her true love for Computer Science during her sophomore year, Susannah has done all she can to immerse herself in the field. After taking a few classes to become proficient in C++ and learn the Linux ropes, she got some practical programming experience working at Altisource Labs this summer, a mortgage-servicing software start-up in Boston. There, she was fast-tracked into the world of web programming, writing creating JSON objects by day and dreaming of updates to her Kendo UI grid by night.
+				This semester, Susannah is taking a course in Machine Structure and Assembly language programming, learning how to create useful visualizations in Procressing and D3, and getting a more formal instruction on the basics of web programming. By the end of the semester, she will have coded a Universal Machine, created countless visualization using squarified treemaps, animations and more, and used JavaScript to make a better world.
+				When not debugging code, Susannah enjoys singing with her all-female acapella group (girl power!) and trying new and interesting foods to write about for Tufts' food blog. She is excited for all of the new and useful knowledge she will gain from this year, and hopes she will find an experience next summer that was as rewarding as her last.</p>
+			</div>
 		</section>
 		<section id="projects">
 		</section>
